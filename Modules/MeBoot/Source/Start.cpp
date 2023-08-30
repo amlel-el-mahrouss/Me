@@ -12,7 +12,7 @@
 Int32 BootMain(void)
 {
     BootTextWriter writer;
-    writer.WriteString("Loading Me OS...", kBlack, kWhite, 0, 0);
+    writer.WriteString("Loading MeKernel...", kBlack, kWhite, 0, 0);
 
     return 0;
 }

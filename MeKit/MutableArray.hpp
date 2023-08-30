@@ -62,9 +62,9 @@ template <typename T, T _PlaceHolderValue> class NullableMutableArray
 {
   public:
     // explicit this.
-    explicit NullableMutableArray() : m_FirstNode(new MutableLinkedList<T>())
-    {
-    }
+    NullableMutableArray() 
+        : m_FirstNode(new MutableLinkedList<T>())
+    {}
 
     /*
      * We free all the nodes allocated by the array
@@ -85,6 +85,7 @@ template <typename T, T _PlaceHolderValue> class NullableMutableArray
         }
     }
 
+  public:
     NullableMutableArray &operator=(const NullableMutableArray &) = default;
     NullableMutableArray(const NullableMutableArray &) = default;
 
@@ -158,8 +159,7 @@ template <typename T>
 class MutableArray : public NullableMutableArray<voidPtr, nullptr>
 {
   public:
-    // explicit this.
-    explicit MutableArray() = default;
+    MutableArray() = default;
     virtual ~MutableArray() = default;
 
     ME_COPY_DEFAULT(MutableArray)
