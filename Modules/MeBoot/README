@@ -1,0 +1,13 @@
+Me Boot Manager
+===============
+
+A C++ Operating System loader for PowerPC and AMD64.
+
+INSTALLING:
+===========
+
+- Download repos
+- Build using CMake
+- TADA, you can now flash this to a UDF/ISO image!
+
+Copy Amlal El Mahrouss., all rights reserved.

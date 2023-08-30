@@ -1,0 +1,24 @@
+MeKernel
+=======
+
+Installing:
+==========
+
+- Clone git repo.
+- Change dir to repo.
+
+
+Building:
+=========
+
+- Install MeC++
+- Compile and link.
+
+Flashing:
+========
+
+- Make an UDF disk.
+- Boot in a test machine.
+
+Copyright Amlal El Mahrouss, all rights reserved
+============================================

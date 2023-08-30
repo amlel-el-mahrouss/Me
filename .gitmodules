@@ -1,0 +1,3 @@
+[submodule "Modules/MeBoot"]
+	path = Modules/MeBoot
+	url = git@gitlab.com:mepaq-computer-corporation/mebox/boot-src.git

@@ -1,0 +1,5 @@
+# Init daemon
+
+StartServer LoaderServer
+StartServer LoginServer
+StartServer WindowServer

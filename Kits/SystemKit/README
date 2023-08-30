@@ -1,0 +1,12 @@
+SystemKit
+=========
+
+Basis of the Me API.
+
+Contains
+========
+
+- Memory Manager
+- GIF/PNG support
+- Messaging API
+- File I/O

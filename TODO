@@ -1,0 +1,4 @@
+- We need preemptive multi-threading.
+- We then need sync primitives.
+- We also need a system library for the OS.
+- We also need a C++ compiler for MeKernel device drivers and user APIS.
